@@ -78,7 +78,9 @@ body {
     display: flex;
     gap: 40px;
 }
-
+.head {
+    border-bottom: 1px solid #e7e9fc;
+}
 /* Logo Nav */
 .logo {
     font-family: "Raleway", sans-serif;
@@ -90,6 +92,7 @@ body {
     color: #4d5ae5;
     width: 115px;
     display: inline-flex;
+    margin-right: 76px;
 }
 
 .logo-accent {
@@ -149,20 +152,29 @@ button {
 }
 .btn {
     cursor: pointer;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
 }
 
 
 /* Big Box */
-    .box {
-        background-color: #2e2f42;
-    }
-    .box-sentence {
+.box {
+    background-color: #2e2f42;
+}
+.box-sentence {
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
     font-weight: 700;
     color: #fff;
+    max-width: 496px;
+}
+.box-section {
+    padding: 188px 0 188px;
 }
 
 /* Features and Names */
