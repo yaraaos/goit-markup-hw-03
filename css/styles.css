@@ -69,7 +69,7 @@ body {
     display: flex;
     width: 261 px;
 }
-.header .container{
+.head .container{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -166,6 +166,7 @@ button {
 /* Big Box */
 .box {
     background-color: #2e2f42;
+    padding: 120px 0
 }
 .box-sentence {
     font-size: 56px;
@@ -198,15 +199,15 @@ button {
 }
 .visually-hidden {
     position: absolute;
-        width: 1px;
-        height: 1px;
-        margin: -1px;
-        padding: 0;
-        overflow: hidden;
-        clip: rect(0, 0, 0, 0);
-        border: 0;
-        white-space: nowrap;
-        clip-path: inset(50%);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+    white-space: nowrap;
+    clip-path: inset(50%);
 }
 .job-name {
     padding: 32px 0;
@@ -226,6 +227,9 @@ button {
     margin-top: 32px;
     margin-bottom: 8px;
     text-align: center;
+}
+.second {
+    padding: 120px 0;
 }
 .second-p {
     font-size: 16px;
@@ -253,16 +257,26 @@ button {
 }
 .team-box {
     background-color: #f4f4fd;
+    padding: 120px 0;
 }
 .third-list {
     background-color: #fff;
+    border-radius: 0px 0px 4px 4px;
 }
+
 .portfolio-pics {
     padding: 72px 0 120px 0;
     --items: 3;
     --row-indent: 48px;
 }
-
+.fourth {
+    padding: 120px 0 120px 0;
+}
+.fourth .container {
+    padding: 32px 16px;
+    border-radius: 1px solid #e7e9fc;
+    
+}
 /* Footer */
 .footer-box { 
     background-color: #2e2f42;
