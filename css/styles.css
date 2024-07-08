@@ -39,6 +39,11 @@ body {
     letter-spacing: 0.02em;
     color: #434455;}
 
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 /* Card Set */
 .card-set {
     display: flex;
