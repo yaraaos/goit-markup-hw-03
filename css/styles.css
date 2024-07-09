@@ -240,6 +240,9 @@ button {
     margin-bottom: 72px;
     flex-direction: column;
 }
+.paragraphs {
+    font-size: 16px;
+}
 
 .team-box {
     background-color: #f4f4fd;
@@ -251,16 +254,11 @@ button {
 }
 
 .portfolio-pics {
-    padding: 72px 0 120px 0;
     --items: 3;
     --row-indent: 48px;
 }
 .fourth {
     padding: 120px 0 120px 0;
-}
-.fourth .container {
-    padding: 32px 16px;
-    border-radius: 1px solid #e7e9fc;
 }
 .fourth-list {
     width: calc((100% - 48px) / 3);
