@@ -206,7 +206,8 @@ button {
     overflow: hidden;
     }
 .job-name {
-    padding: 32px 0;єtext-align: center;
+    padding: 32px 0;
+    text-align: center;
 }
 .app-names {
     padding: 32px 16px;
