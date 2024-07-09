@@ -185,17 +185,13 @@ button {
 
 /* Features and Names */
 .features {
-    padding: 120px 0;
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
 }
 .features-list {
     width: calc((100% - 72px) / 4);
-    justify-content: center;
-    display: flex;
     flex-direction: column;
-    gap: 24px;
 }
 .visually-hidden {
     position: absolute;
@@ -210,13 +206,12 @@ button {
     overflow: hidden;
     }
 .job-name {
-    padding: 32px 0;
+    padding: 32px 0;єtext-align: center;
 }
 .app-names {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;
 }
 .names {
     font-weight: 500;
@@ -224,9 +219,7 @@ button {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    margin-top: 32px;
     margin-bottom: 8px;
-    text-align: center;
 }
 .second {
     padding: 120px 0;
@@ -244,18 +237,9 @@ button {
     color: #2e2f42;
     text-transform: capitalize;
     margin-bottom: 72px;
-    display: flex;
     flex-direction: column;
-    padding-top: 120px;
 }
-.paragraphs {
-    margin-bottom: 32px;
-    text-align: center;
-}
-.team-members{
-    text-align: center;
-    padding: 72px 0 120px 0;
-}
+
 .team-box {
     background-color: #f4f4fd;
     padding: 120px 0;
@@ -295,9 +279,7 @@ button {
     font-weight: inherit;
     width: 264px;
 }
-.footer-box .container {
-    padding: 100px 0;
-}
+
 .logo-a {
     display: inline-block;
     margin-bottom: 16px;
